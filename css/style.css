@@ -17,7 +17,7 @@ body {
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-}
+    }
 .navigation-list-link, {
     font-weight: 500;
     font-size: 14px;
@@ -28,7 +28,6 @@ body {
 .navigation-list-link:focus {
     color:var(--main-color)
 }
-
 .address-header: {
     font-weight: 500;
     font-size: 80px;
@@ -39,7 +38,10 @@ body {
 .address-header:focus {
     color:var(--main-color);
 }
-
+.header {
+    color: #212121;
+    font-style: normal;
+}
 
 
 /* ======END HEADER====== */
