@@ -20,6 +20,15 @@
 .logo-span {
     color: #2196F3;
 }
+.navigation-list-link-logo,
+.navigation-list-link,
+.address-header,
+.navigation-list-link-logo-footer,
+.addres-map,
+.addres-mail,
+.address-tel {
+    text-decoration: none;
+}
 
 
 /* ======END COMPONENTS====== */
@@ -123,7 +132,7 @@
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: var(--fifth-color)
+    color: var(--fifth-color);
     }
 .addres-map{
     font-size: 14px;
@@ -143,13 +152,17 @@
 }
 .footer {
     background-color: var(--seveth-color);
-    text-decoration: none;
 }
 /* ======END FOOTER====== */
 /* ============END INDEX.HTML============ */
 
 
 /* ============PORTFOLIO.HTML============ */
+
+.navigation-list-link2 {
+    color: var(--main-color)
+}
+
 
 /* ======MAIN====== */
     /* ======HERO====== */
@@ -173,10 +186,10 @@
 
     /* ======PHOTOS====== */
 .photos-list-title {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 .photos-list-text {
     font-size: 16px;
