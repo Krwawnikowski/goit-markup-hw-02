@@ -5,8 +5,8 @@
     --secondary-font: 'Raleway', sans-serif;
 }
 
-body {
-    font: var(--main-font)
+.body {
+    font-family: var(--main-font);
 }
 
 /* ======COMPONENTS====== */
@@ -32,28 +32,71 @@ body {
     color: #212121;  
 }
 .navigation-list-link:hover,
-.navigation-list-link:focus {
-    color:var(--main-color)
-}
+.navigation-list-link:focus,
 .address-header:hover,
 .address-header:focus {
-    color:var(--main-color);
+    color:var(--main-color)
 }
-.header {
-    
-    font-style: normal;
-}
-
 
 /* ======END HEADER====== */
 /* ======MAIN====== */
+    /* ======SECTION HERO====== */
 
 
-
-.zamów-usługe {
+.h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+.hero-btn {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-
+    /* ======END SECTION HERO====== */
+    /* ======SECTION ADVENTEGES====== */
+.adventeges-list-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.adventeges-list-item-text {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color)
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+}
+    /* ======END SECTION ADVENTEGES====== */
+    /* ======SECTION ABOUT-US====== */
+.about-us-list-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+}
+.about-us-list-item-link-text {
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;    
+    color: var(--secondary-color)
+}
+    /* ======END SECTION ABOUT-US====== */
 /* ======END MAIN====== */
+
+/* ======FOOTER====== */
+
+
+
+
+/* ======END FOOTER====== */
